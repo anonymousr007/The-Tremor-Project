@@ -9,7 +9,9 @@ Tremor Notes
 * [`report.json` gets generated even when the `-o` flag isn't specified `#1072`](https://github.com/tremor-rs/tremor-runtime/issues/1072)
 * [Solidify and generalize error handling code in the runtime `#1175`](https://github.com/tremor-rs/tremor-runtime/issues/1175)
 
+## License
 
+[Apache License 2.0](https://github.com/anonymousr007/Tremor-Notes/blob/main/LICENSE)
 
 
 
