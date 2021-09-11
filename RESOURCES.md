@@ -18,7 +18,6 @@
 * https://blog.burntsushi.net/rust-error-handling/
 * https://nick.groenen.me/posts/rust-error-handling/
 * https://blog.rust-lang.org/inside-rust/2020/11/23/What-the-error-handling-project-group-is-working-on.html
-
-https://github.com/skoech/framework-comparison
-https://github.com/ninenines/cowboy
-https://learnyousomeerlang.com/
+* https://github.com/skoech/framework-comparison
+* https://github.com/ninenines/cowboy
+* https://learnyousomeerlang.com/
