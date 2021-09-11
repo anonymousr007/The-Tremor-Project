@@ -21,10 +21,11 @@ Error handling is a significant part of any project, historically we picked erro
 * [investigate eyre as a replacement for error chain #389](https://github.com/tremor-rs/tremor-runtime/issues/389)
 * [Streamline Logging and Error messages #508](https://github.com/tremor-rs/tremor-runtime/issues/508)
 * [Use common error format and function for building errors #506](https://github.com/tremor-rs/tremor-runtime/issues/506)
-* [`report.json` gets generated even when the -o flag isn't specified #1072](https://github.com/tremor-rs/tremor-runtime/issues/1072)
+* [`report.json` gets generated even when the `-o` flag isn't specified #1072](https://github.com/tremor-rs/tremor-runtime/issues/1072)
 
 ### Possible frameworks that have come to mind are (this is a non-exhaustive list):
 
-ariadne
-eyre (and color_eyre)
-anyhow
+* [Ariadne](https://github.com/mirumee/ariadne)
+* [Eyre](https://github.com/yaahc/eyre)
+* [Color eyre](https://github.com/yaahc/color-eyre)
+* [Anyhow](https://github.com/dtolnay/anyhow)
