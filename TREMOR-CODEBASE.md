@@ -1,0 +1,56 @@
+# Tremor Codebase 
+
+- .cargo
+  - config
+- .devcontainer
+  - Dockerfile
+  - devcontainer.json
+  - seccomp_perf.json
+- .github
+- .rpm
+- .vscode
+- bench
+- demo
+- docker
+- notes
+- packaging
+- src
+- static
+- tests
+- tremor-api
+- tremor-cli
+- tremor-common
+- tremor-erl
+- tremor-influx
+- tremor-pipeline
+- tremor-script
+- tremor-value
+- .actrc
+- .checkignore
+- .depignore
+- .dockerignore
+- .drone.yml
+- .gitignore
+- .markdownlint.yaml
+- CHANGELOG.md
+- CODEOWNERS
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- Cargo.lock
+- Cargo.toml
+- Cross.toml
+- Dockerfile
+- Dockerfile.learn
+- Dockerfile.native
+- HEADER
+- LICENSE
+- Makefile
+- README.md
+- RELEASE_PROCESS.md
+- SECURITY.md
+- build.rs
+- clippy.toml
+- deny.toml
+- docker-compose.yaml
+- release.sh
+- rust-toolchain
