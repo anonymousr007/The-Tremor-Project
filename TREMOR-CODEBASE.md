@@ -87,7 +87,32 @@
     - blackhole.trickle
     - blaster.trickle
 - demo
+  - configs
+    - tremor
+      - config
+        - config.yaml
+        - demo.trickle
+        - enrich.trickle
+        - loadgen-error.trickle
+        - loadgen-info.trickle
+      - logger.yaml
+  - data
+    - apache_access_logs.xz
+    - data.binflux.xz
+    - data.influx.xz
+    - data.json.xz
+    - data.msgpack.xz
+  - logs
+    - .gitignore
+  - data.json.tpl
+  - demo.yaml
 - docker
+  - config
+    - config.yaml
+    - main.trickle
+  - entrypoint.sh
+  - logger.yaml
+  - tarpaulin.sh
 - notes
 - packaging
 - src
