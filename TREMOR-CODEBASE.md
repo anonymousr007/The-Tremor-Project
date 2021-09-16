@@ -114,7 +114,45 @@
   - logger.yaml
   - tarpaulin.sh
 - notes
+  - Instrument.md
+  - Patterns.md
+  - Style.md
+  - tricks.md
 - packaging
+  - builder-images
+    - shared
+      - entrypoint.sh
+      - install_dependencies_debian.sh
+    - .dockerignore
+    - Dockerfile.x86_64-alpine-linux-musl
+    - Dockerfile.x86_64-debian-linux-gnu
+    - Dockerfile.x86_64-unknown-linux-gnu
+    - Dockerfile.x86_64-unknown-linux-gnu.debian
+    - Dockerfile.x86_64-unknown-linux-musl
+    - README.md
+    - build_image.sh
+    - publish_images.sh
+  - distribution
+    - debian
+      - maintainer-scripts
+        - postinst
+    - etc
+      - systemd
+        - system
+          - tremor.service
+      - tremor
+        - config
+          - main.yaml.sample
+        - logger.yaml
+    - usr
+      - share
+        - tremor
+          - tremor.sh
+    - README.md
+  - README.md
+  - cross_build.sh
+  - functions.sh
+  - run.sh
 - src
 - static
 - tests
