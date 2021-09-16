@@ -29,8 +29,63 @@
   - dependabot.yml
   - pull_request_template.md
 - .rpm
+  - tremor.spec
 - .vscode
+  - launch.json
+  - settings.json
 - bench
+  - batch
+    - main.trickle
+  - group-by-count
+    - main.trickle
+  - group_by
+    - main.trickle
+  - group_by_each
+    - main.trickle
+  - group_by_evil
+    - main.trickle
+  - influx-http
+    - main.trickle
+  - let
+    - main.trickle
+  - ls-apache
+    - main.trickle
+  - match
+    - main.trickle
+  - merge
+    - main.trickle
+  - merge_assign_target
+    - main.trickle
+  - passthrough
+    - main.trickle
+    - passthrough 
+  - patch
+    - main.trickle
+  - patch_assign_target
+    - main.trickle
+  - real-workflow-enrich
+    - main.trickle
+  - real-workflow-throughput-json-v0.10
+    - main.trickle
+  - real-workflow-throughput-json
+    - main.trickle
+  - real-workflow-throughput-wal-json
+    - main.trickle
+  - real-workflow-throughput-wal-mem-json
+    - main.trickle
+  - real-workflow-transform
+    - main.trickle
+  - recurse
+    - input.json
+    - main.trickle- main.trickle
+  - tcp-throughput
+    - blackhole.trickle
+    - blaster.trickle
+  - window_two_by_two
+    - main.trickle
+  - ws-throughput
+    - blackhole.trickle
+    - blaster.trickle
 - demo
 - docker
 - notes
