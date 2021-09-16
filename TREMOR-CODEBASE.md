@@ -264,6 +264,7 @@
   - utils.rs
   - version.rs
 - static
+  - openapi.yaml
 - tests
 - tremor-api
 - tremor-cli
