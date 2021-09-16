@@ -1,4 +1,4 @@
-# The Tremor Project Notes
+# The Tremor Project
 
 ## Tremor Issues
 
