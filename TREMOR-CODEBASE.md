@@ -7,6 +7,27 @@
   - devcontainer.json
   - seccomp_perf.json
 - .github
+  - ISSUE_TEMPLATE
+    - bug_report.md
+    - content_bug_report.md
+    - enhancement_request.md
+  - checks
+    - copyright.sh
+    - deps.sh
+    - eqc.sh
+    - safety.sh
+  - workflows
+    - checks.yaml
+    - eqc.yaml
+    - integration.yaml
+    - licenses.yaml
+    - publish-edge.yaml
+    - publish-tags.yaml
+    - release.yaml
+    - security.yaml
+    - tests.yaml
+  - dependabot.yml
+  - pull_request_template.md
 - .rpm
 - .vscode
 - bench
