@@ -218,6 +218,26 @@
     - udp.rs
     - ws.rs
   - source
+    - amqp.rs
+    - blaster.rs
+    - cb.rs
+    - crononome.rs
+    - discord.rs
+    - env.rs
+    - file.rs
+    - gsub.rs
+    - kafka.rs
+    - metronome.rs
+    - nats.rs
+    - otel.rs
+    - postgres.rs
+    - prelude.rs
+    - rest.rs
+    - sse.rs
+    - stdin.rs
+    - tcp.rs
+    - udp.rs
+    - ws.rs
   - async_sink.rs
   - codec.rs
   - config.rs
