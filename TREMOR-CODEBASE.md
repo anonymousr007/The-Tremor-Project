@@ -414,22 +414,73 @@
       - out
       - query.trickle
     - rewrite_root
+      - in
+      - out
+      - query.trickle
     - roundrobin
+      - in
+      - out
+      - query.trickle
     - script_error
+      - in
+      - out
+      - query.trickle
     - script_params
+      - in
+      - out
+      - query.trickle
     - script_params_overwrite
+      - in
+      - out
+      - query.trickle
     - state
+      - in
+      - out
+      - query.trickle
     - state_counter_operator
+      - in
+      - out
+      - query.trickle
     - streams
+      - in
+      - out
+      - query.trickle
     - tremor_map
+      - in
+      - out
+      - query.trickle
     - wal
+      - in
+      - out
+      - query.trickle
     - where_filter
+      - in
+      - out
+      - query.trickle
     - window_by_two
+      - in
+      - out
+      - query.trickle
     - window_by_two_scripted
+      - in
+      - out
+      - query.trickle
     - window_mixed_1
+      - in
+      - out
+      - query.trickle
     - window_mixed_2
+      - in
+      - out
+      - query.trickle
     - window_size_tilted
+      - in
+      - out
+      - query.trickle
     - with_config
+      - in
+      - out
+      - query.trickle
     - new.sh
   - query_errors
   - query_runtime_errors
