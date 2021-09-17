@@ -267,7 +267,79 @@
   - openapi.yaml
 - tests
   - configs
+    - deploy.simple.yaml
+    - ut.passthrough.yaml
   - queries
+    - _template
+      - in
+      - out
+      - query.trickle
+    - alias_script_params_overwrite
+      - foo
+        - bar.trickle
+      - in
+      - out
+      - query.trickle
+    - cardinality
+      - in
+      - out
+      - query.trickle
+    - default_rule
+      - in
+      - out
+      - query.trickle
+    - dimensions
+      - in
+      - out
+      - query.trickle
+    - example_rule
+      - in
+      - out
+      - query.trickle
+    - group_by_size
+    - group_by_time
+    - group_country_region_az
+    - group_each
+    - group_set
+    - guard_having
+    - guard_where
+    - having_filter
+    - history
+    - layered_limiting
+    - lru
+    - merge
+    - mod_def
+    - multi_dimensions
+    - mutate
+    - passthrough
+    - patch
+    - pp_alias_operator
+    - pp_alias_script
+    - pp_alias_win
+    - pp_config_directive
+    - pp_const
+    - pp_fn
+    - pp_operator
+    - pp_script
+    - pp_win
+    - rewrite_root
+    - roundrobin
+    - script_error
+    - script_params
+    - script_params_overwrite
+    - state
+    - state_counter_operator
+    - streams
+    - tremor_map
+    - wal
+    - where_filter
+    - window_by_two
+    - window_by_two_scripted
+    - window_mixed_1
+    - window_mixed_2
+    - window_size_tilted
+    - with_config
+    - new.sh
   - query_errors
   - query_runtime_errors
   - script_errors
