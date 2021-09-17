@@ -297,31 +297,122 @@
       - out
       - query.trickle
     - group_by_size
+      - in
+      - out
+      - query.trickle
     - group_by_time
+      - in
+      - out
+      - query.trickle
     - group_country_region_az
+      - in
+      - out
+      - query.trickle
     - group_each
+      - in
+      - out
+      - query.trickle
     - group_set
+      - in
+      - out
+      - query.trickle
     - guard_having
+      - in
+      - out
+      - query.trickle
     - guard_where
+      - in
+      - out
+      - query.trickle
     - having_filter
+      - in
+      - out
+      - query.trickle
     - history
+      - in
+      - out
+      - query.trickle
     - layered_limiting
+      - in
+      - out
+      - query.trickle
     - lru
+      - in
+      - out
+      - query.trickle
     - merge
+      - in
+      - out
+      - query.trickle
     - mod_def
+      - in
+      - out
+      - query.trickle
     - multi_dimensions
+      - in
+      - out
+      - query.trickle
     - mutate
+      - in
+      - out
+      - query.trickle
     - passthrough
+      - in
+      - out
+      - query.trickle
     - patch
+      - in
+      - out
+      - query.trickle
     - pp_alias_operator
+      - foo
+      - foo.json
+      - in
+      - out
+      - query.trickle
     - pp_alias_script
+      - foo
+      - foo.json
+      - in
+      - out
+      - query.trickle
     - pp_alias_win
+      - foo
+      - in
+      - out
+      - query.trickle
     - pp_config_directive
+      - foo
+      - in
+      - out
+      - query.trickle
     - pp_const
+      - example
+      - in
+      - out
+      - query.trickle
     - pp_fn
+      - example
+      - in
+      - out
+      - query.trickle
     - pp_operator
+      - foo
+      - foo.json
+      - in
+      - out
+      - query.trickle
     - pp_script
+      - foo
+      - foo.json
+      - in
+      - out
+      - query.trickle
     - pp_win
+      - foo
+      - in
+      - out
+      - query.trickle
     - rewrite_root
     - roundrobin
     - script_error
