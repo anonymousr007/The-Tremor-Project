@@ -266,6 +266,21 @@
 - static
   - openapi.yaml
 - tests
+  - configs
+  - queries
+  - query_errors
+  - query_runtime_errors
+  - script_errors
+  - script_runtime_errors
+  - script_warnings
+  - scripts
+  - query.rs
+  - query_error.rs
+  - query_runtime_error.rs
+  - script.rs
+  - script_error.rs
+  - script_runtime_error.rs
+  - script_warning.rs
 - tremor-api
 - tremor-cli
 - tremor-common
