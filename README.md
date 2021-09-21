@@ -1,5 +1,15 @@
 # The Tremor Project
 
+## Pathway to do Error Handling in our project 
+
+> Is anything missing or wrong please tell me :)
+
+- [ ] Take a look an error handling of `rust` and `erlang` languages
+- [ ] Compare different crates such as [`eyre`](https://github.com/yaahc/eyre), [`color_eyre`](https://github.com/yaahc/color-eyre), [`anyhow`](https://github.com/dtolnay/anyhow) or [`thiserror`](https://github.com/dtolnay/thiserror) and find the most suitable crate for our tremor project.
+- [ ] Make a list of error types [**very important**].
+- [ ] [`linkerd2-proxy`](https://github.com/linkerd/linkerd2-proxy) has a similar project structure to ours and uses `thiserror` for error handling. So, Can we first study on this project `error handling system` ?
+- [ ] Take a look of our `error-handling-system` and start implementing the best suitable crate for error handler.
+
 ## Tremor Issues
 
 * [investigate eyre as a replacement for error chain `#389`](https://github.com/tremor-rs/tremor-runtime/issues/389)
@@ -18,11 +28,3 @@
 ## License
 
 [Apache License 2.0](https://github.com/anonymousr007/Tremor-Notes/blob/main/LICENSE)
-
-
-
-
-
-
-
-
