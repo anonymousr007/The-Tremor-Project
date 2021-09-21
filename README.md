@@ -10,6 +10,13 @@
 - [ ] [`linkerd2-proxy`](https://github.com/linkerd/linkerd2-proxy) has a similar project structure to ours and uses `thiserror` for error handling. So, Can we first study on this project `error handling system` ?
 - [ ] Take a look of our `error-handling-system` and start implementing the best suitable crate for error handler.
 
+## Crates for error-handling
+
+* **anyhow**: Flexible concrete Error type built on std::error::Error.
+* **color_eyre**: Custom hooks for colorful human oriented error reports via panics and the eyre crate.
+* **eyre**: A trait object based error handling type for easy idiomatic error handling and reporting in Rust applications.
+* **thiserror**: derive(Error) for struct and enum error types.
+
 ## Tremor Issues
 
 * [investigate eyre as a replacement for error chain `#389`](https://github.com/tremor-rs/tremor-runtime/issues/389)
