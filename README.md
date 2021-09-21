@@ -9,6 +9,7 @@
 - [ ] Make a list of error types [**very important**].
 - [ ] [`linkerd2-proxy`](https://github.com/linkerd/linkerd2-proxy) has a similar project structure to ours and uses `thiserror` for error handling. So, Can we first study on this project `error handling system` ?
 - [ ] Take a look of our `error-handling-system` and start implementing the best suitable crate for error handler.
+- [ ] Basically, we implementing only in `errors.rs` such as [`src/errors.rs`](https://github.com/tremor-rs/tremor-runtime/blob/main/src/errors.rs), [`tremor-cli/src/errors.rs`](https://github.com/tremor-rs/tremor-runtime/blob/main/tremor-cli/src/errors.rs), [`tremor-pipeline/src/errors.rs`](https://github.com/tremor-rs/tremor-runtime/blob/main/tremor-pipeline/src/errors.rs) and [`tremor-script/src/errors.rs`](https://github.com/tremor-rs/tremor-runtime/blob/main/tremor-script/src/errors.rs) files or every file in which used the error system. (from my according, every file)
 
 ## Crates for error-handling
 
