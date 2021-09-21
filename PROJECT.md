@@ -25,7 +25,8 @@ Error handling is a significant part of any project, historically we picked erro
 
 ### Possible frameworks that have come to mind are (this is a non-exhaustive list):
 
-* [Ariadne](https://github.com/mirumee/ariadne)
-* [Eyre](https://github.com/yaahc/eyre)
-* [Color eyre](https://github.com/yaahc/color-eyre)
-* [Anyhow](https://github.com/dtolnay/anyhow)
+* [ariadne](https://github.com/mirumee/ariadne)
+* [eyre](https://github.com/yaahc/eyre)
+* [color eyre](https://github.com/yaahc/color-eyre)
+* [anyhow](https://github.com/dtolnay/anyhow)
+* [thiserror](https://github.com/dtolnay/thiserror)
