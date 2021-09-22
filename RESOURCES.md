@@ -14,6 +14,7 @@
 * https://www.radicalsimpli.city
 * A good leadership (or community) book would be Radical Candor.
 
+* http://www.sheshbabu.com/posts/rust-error-handling/
 * https://www.lpalmieri.com/posts/error-handling-rust/
 * https://blog.burntsushi.net/rust-error-handling/
 * https://nick.groenen.me/posts/rust-error-handling/
