@@ -10,18 +10,21 @@ tremor-runtime
       |-- tremor-cli
           |-- src
               |-- errors.rs
-      |-- tremor-pipeline
+      |-- tremor-common
           |-- src
               |-- errors.rs
       |-- tremor-influx
           |-- src
               |-- errors.rs
-      |-- tremor-value
+      |-- tremor-pipeline
           |-- src
-              |-- error.rs
+              |-- errors.rs
       |-- tremor-script
           |-- src
               |-- errors.rs
+      |-- tremor-value
+          |-- src
+              |-- error.rs
 ```
 
 
