@@ -38,5 +38,7 @@
 * https://github.com/ryankurte/rust-handle-error
 * https://github.com/cduck/rust-error-util
 * https://github.com/mikeando/rust_snafu_test
-* 
+* https://github.com/duncanrhamill/rust_eyre_panic_test
+* https://github.com/zxrs/ok
+* https://github.com/itsfarseen/repro-sqlx-rocket-anyhow-no-backtrace
 * 
